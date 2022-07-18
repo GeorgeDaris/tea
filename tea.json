@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Peppermint",
+        "type": "Herbal",
+        "ingredients": "peppermint leaves",
+        "caffeine": false,
+        "brewing": [ 
+            {
+                "time": "8 minutes",
+                "temperature": "100°C"  
+            }
+        ],
+        "amount": "1tsp per cup"
+    },
+    {
+        "name": "Green",
+        "type": "Green",
+        "ingredients": "green tea leaves",
+        "caffeine": {
+            "hasCaffeine": true,
+            "amount": "30–50 mg",
+            "source": "https://www.healthline.com/nutrition/caffeine-in-green-tea#TOC_TITLE_HDR_2"
+        },
+        "brewing": [ 
+            {
+                "time": "2-4 minutes",
+                "temperature": "70°C"  
+            }
+        ],
+        "amount": "1tsp per cup"   
+    },
+
+    {
+        "name": "Jasmine Earl Grey",
+        "type": "Green",
+        "ingredients": [
+            "Green sencha leaves",
+            "Bergamont",
+            "Jasmine"
+        ],
+        "caffeine": true,
+        "brewing": [ 
+            {
+                "time": "3-4 minutes",
+                "temperature": "80°C - 90°C"  
+            }
+        ],
+        "amount": "1tsp per cup"   
+    },
+
+    {
+        "name": "Green Christmas Tea",
+        "type": "Green",
+        "ingredients": [
+            "Green tea",
+            "Cardanom",
+            "Star anise"
+        ],
+        "caffeine": true,
+        "brewing": [ 
+            {
+                "time": "2-3 minutes",
+                "temperature": "75°C - 80°C"  
+            }
+        ],
+        "amount": "1tsp per cup"   
+    },
+
+    {
+        "name": "Loup's Tea",
+        "type": "Bubble tea",
+        "ingredients": [
+            "Black tea",
+            "Mango flavour",
+            "Blueberry bubbles",
+            "Rasberry bubbles"
+        ],
+        "ingredientsObj": {
+            "tea": "Black tea",
+            "flavour": "Mango",
+            "Bubbles": [
+                "Blueberry",
+                "Rasberry"
+            ]
+        },
+        "caffeine": true,
+        "brewing": [ 
+            {
+                "time": "2-3 minutes",
+                "temperature": "75°C - 80°C"  
+            }
+        ],
+        "amount": "1tsp per cup"   
+    }
+]
