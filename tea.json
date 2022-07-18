@@ -1,8 +1,14 @@
 [
     {
-        "name": "Peppermint",
+        "name": "Peppermint Tea",
         "type": "Herbal",
         "ingredients": "peppermint leaves",
+        "colour": [
+            {
+                "primary": "",
+                "complimentary": ""
+            }
+        ],
         "caffeine": false,
         "brewing": [ 
             {
@@ -13,8 +19,8 @@
         "amount": "1tsp per cup"
     },
     {
-        "name": "Green",
-        "type": "Green",
+        "name": "Green Tea",
+        "type": "Green tea",
         "ingredients": "green tea leaves",
         "caffeine": {
             "hasCaffeine": true,
@@ -32,7 +38,7 @@
 
     {
         "name": "Jasmine Earl Grey",
-        "type": "Green",
+        "type": "Green tea",
         "ingredients": [
             "Green sencha leaves",
             "Bergamont",
@@ -50,7 +56,7 @@
 
     {
         "name": "Green Christmas Tea",
-        "type": "Green",
+        "type": "Green tea",
         "ingredients": [
             "Green tea",
             "Cardanom",
@@ -69,13 +75,7 @@
     {
         "name": "Loup's Tea",
         "type": "Bubble tea",
-        "ingredients": [
-            "Black tea",
-            "Mango flavour",
-            "Blueberry bubbles",
-            "Rasberry bubbles"
-        ],
-        "ingredientsObj": {
+        "ingredients": {
             "tea": "Black tea",
             "flavour": "Mango",
             "Bubbles": [
@@ -83,13 +83,6 @@
                 "Rasberry"
             ]
         },
-        "caffeine": true,
-        "brewing": [ 
-            {
-                "time": "2-3 minutes",
-                "temperature": "75°C - 80°C"  
-            }
-        ],
-        "amount": "1tsp per cup"   
+        "caffeine": true   
     }
 ]
