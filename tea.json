@@ -87,31 +87,30 @@
     },
 
     {
-            "name": "Blue Lady",
-            "type": "Fruit Tea",
-            "ingredients": [
-                "Apple",
-                "Mango",
-                "Rose Petals",
-                "Blue Butterfly Pea Flower",
-                "Dog Rose",
-                "Flavouring"
-            ],
-            "colours": [
-                {
-                    "primary": "",
-                    "secondary": ""
-                }
-            ],
-            "painting": "painting file.png",
-            "caffeine": false,
-            "brewing": [ 
-                {
-                    "time": "6–10 minutes",
-                    "temperature": "100°C"  
-                }
-            ],
-            "amount": "1tsp per cup"
-        }
- }
+        "name": "Blue Lady",
+        "type": "Fruit Tea",
+        "ingredients": [
+            "Apple",
+            "Mango",
+            "Rose Petals",
+            "Blue Butterfly Pea Flower",
+            "Dog Rose",
+            "Flavouring"
+        ],
+        "colours": [
+            {
+                "primary": "",
+                "secondary": ""
+            }
+        ],
+        "painting": "painting file.png",
+        "caffeine": false,
+        "brewing": [ 
+            {
+                "time": "6–10 minutes",
+                "temperature": "100°C"  
+            }
+        ],
+        "amount": "1tsp per cup"
+    }
 ]
